@@ -1,0 +1,227 @@
+:root {
+  --primary-text-tittle-color: #212121;
+  --background-maintittle-color: #ffffff;
+  --accent-color: #2196f3;
+  --text-tell-color: #757575;
+  --main-background-color: #2f303a;
+}
+body {
+  color: var(--primary-text-tittle-color);
+  background-color: var(--background-maintittle-color);
+  letter-spacing: 0.03em;
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  width: 1200px;
+}
+
+.section {
+  display: flex;
+}
+
+/* header */
+.site-nav {
+  display: flex;
+}
+
+.logo {
+  color: var(--primary-text-tittle-color);
+  font-family: Raleway, sans-serif;
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo-web {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+}
+.list {
+  list-style: none;
+}
+/* навігація сайтів хедер */
+.link {
+  color: var(--primary-text-tittle-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.current {
+  color: var(--accent-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+/* контакти */
+.contacts {
+  color: var(--primary-text-tittle-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+  display: flex;
+}
+.email {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+.number {
+  color: var(--text-tell-color);
+  text-decoration: none;
+}
+.email:hover,
+.email:focus {
+  color: var(--accent-color);
+}
+.number:hover,
+.number:focus {
+  color: var(--accent-color);
+}
+/* головна-герой */
+.hero {
+  background-color: var(--main-background-color);
+}
+.hero-tittle {
+  color: var(--background-maintittle-color);
+  text-transform: uppercase;
+  font-weight: 900;
+  text-align: center;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+}
+.btn-hero {
+  color: var(--background-maintittle-color);
+  background-color: #2196f3;
+  cursor: pointer;
+  border-radius: 4px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+.btn-hero:hover,
+.btn-hero:focus {
+  color: var(--accent-color);
+}
+/* вимоги */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.features-list {
+  text-decoration: none;
+  display: flex;
+}
+
+.features-title {
+  display: block;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: left;
+}
+.features-text {
+  color: var(--text-tell-color);
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: left;
+  vertical-align: top;
+}
+/* чим ми займаємося */
+.title {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  vertical-align: top;
+}
+
+/* наша команда */
+
+.name {
+  font-size: 16px;
+  line-height: 1.18;
+  vertical-align: top;
+}
+.team-text {
+  color: var(--text-tell-color);
+  font-size: 16px;
+  line-height: 1.18;
+  vertical-align: top;
+}
+/* footer */
+.footer {
+  background-color: var(--main-background-color);
+}
+.logo-footer{
+  color: var(--background-maintittle-color);
+  font-family: Raleway, sans-serif;
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 1.19;
+
+}
+
+.address {
+  color: var(--background-maintittle-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.contact-footer {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
+}
+.contact-footer:hover,
+.contact-footer:focus {
+  color: var(--accent-color);
+}
+
+/* css для портфоліо */
+
+.btn-portfolio {
+  font-family: Roboto,sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  border: 0;
+}
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+  color: var(--background-maintittle-color);
+  background-color: var(--accent-color);
+}
+.btn-active {
+  color: var(--background-maintittle-color);
+  background-color: var(--accent-color);
+}
+.photo-tittle {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.photo-text {
+  color: var(--text-tell-color);
+  font-size: 16px;
+  line-height: 1.87;
+}
+
